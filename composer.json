@@ -9,10 +9,10 @@
     "infyomlabs/laravel-generator": "^v5.4"
   },
   "scripts": {
-    "post-package-install": [
+    "post-install-cmd": [
       "@php ./copy-laravel-generator-files.php"
     ],
-    "post-package-update": [
+    "post-update-cmd": [
       "@php ./copy-laravel-generator-files.php"
     ]
   }
