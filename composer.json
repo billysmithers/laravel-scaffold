@@ -11,6 +11,9 @@
   "scripts": {
     "post-package-install": [
       "@php ./copy-laravel-generator-files.php"
+    ],
+    "post-package-update": [
+      "@php ./copy-laravel-generator-files.php"
     ]
   }
 }
