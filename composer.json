@@ -5,9 +5,7 @@
   "keywords": ["framework", "laravel", "scaffold"],
   "license": "MIT",
   "require": {
-    "php": "^8.1"
-  },
-  "require-dev": {
+    "php": "^8.1",
     "infyomlabs/laravel-generator": "^v5.4"
   },
   "scripts": {
