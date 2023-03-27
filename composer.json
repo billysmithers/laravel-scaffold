@@ -7,13 +7,5 @@
   "require": {
     "php": "^8.1",
     "infyomlabs/laravel-generator": "^v5.4"
-  },
-  "scripts": {
-    "post-install-cmd": [
-      "@php ./copy-laravel-generator-files.php"
-    ],
-    "post-update-cmd": [
-      "@php ./copy-laravel-generator-files.php"
-    ]
   }
 }
