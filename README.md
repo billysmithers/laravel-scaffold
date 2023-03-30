@@ -7,4 +7,5 @@ There are a few fixes / improvements to make this package suitable for our purpo
 We have PRs raised, while we wait for those PRs to be approved / merged we will manually update the
 infoym scaffold vendor package with the files from src within this package.
 
-The script in the root copies the files from src to the infoym package on composer post-package-install.
+The script in the root of the Promos CMS repo copies the files from src to the infoym package
+on composer post-install-cmd and post-update-cmd.
